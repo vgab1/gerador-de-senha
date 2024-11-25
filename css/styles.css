@@ -175,3 +175,25 @@ input:focus {
 .hide {
   display: none;
 }
+
+@media (max-width: 450px) {
+  #register-container {
+    flex-direction: column;
+    max-width: 100%;
+    margin: 1rem;
+  }
+
+  #register-banner {
+    width: 100%;
+    height: 200px;
+  }
+
+  #register-form {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  #register-banner h1 {
+    font-size: 2.5rem;
+  }
+}

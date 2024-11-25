@@ -37,7 +37,6 @@ const generatePassword = (
 
   const passwordLength = lengthInput.value;
 
-  // Após refatoração
   const generators = [];
 
   if (lettersInput.checked) {
